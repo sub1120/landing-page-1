@@ -1,0 +1,117 @@
+* {
+    padding:0px;
+    margin: 0px;
+}
+
+.main{
+    margin:50px 100px;
+}
+
+.header{
+    position: relative;
+    height: 100px;
+}
+
+.logo{
+    position: absolute;
+    inset:0px auto;
+    margin:auto 0px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.nav{
+    position:absolute;
+    inset:0px;
+    width: fit-content;
+    height: fit-content;
+    margin:auto;
+}
+
+.nav-item{
+    list-style-type: none;
+    display: inline;
+    margin:10px;
+}
+
+.button-group{
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    right: 0px;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+.search-icon{
+    display: inline;
+}
+
+.search-button{
+    display: inline;
+}
+
+
+.content{
+    position: relative;
+}
+
+.hero{
+    position: absolute;
+    width: 300px;
+}
+
+.mesh{
+    position: absolute;
+    top:50px;
+    width: 380px;
+    z-index: -1;
+}
+
+.hero-right{
+    margin-left:38%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.hero-heading{
+    margin-top:20px;
+    font-size: 48px;
+}
+
+.hero-para{
+    margin-top:20px;
+}
+
+.hero-buttons{
+    margin-top:50px;
+}
+
+
+.contact{
+    margin-top:50px;
+}
+
+.contact-heading{
+    padding:10px;
+}
+
+.contact > img {
+    width: 30px;
+    margin:0px 5px;
+    
+}
+
+.globe{
+    width: 50px;
+    position: absolute;
+    left:50%;
+    top:0px;
+}
+.star{
+    width: 50px;
+    position:absolute;
+    right:0px;
+    top:30px;
+}
