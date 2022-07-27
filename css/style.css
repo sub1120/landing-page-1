@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;800&family=Poppins:wght@400;500&display=swap');
+
 * {
     padding:0px;
     margin: 0px;
@@ -10,6 +13,7 @@
 .header{
     position: relative;
     height: 100px;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .logo{
@@ -18,6 +22,11 @@
     margin:auto 0px;
     width: fit-content;
     height: fit-content;
+    width: 120px;
+}
+
+.logo img{
+    width: 120px;
 }
 
 .nav{
@@ -31,7 +40,13 @@
 .nav-item{
     list-style-type: none;
     display: inline;
-    margin:10px;
+    margin:0px 10px;
+    font-weight: 600;
+}
+
+.nav-item.active{
+    border-bottom: 2px solid black;
+    font-weight: 800;
 }
 
 .button-group{
@@ -45,13 +60,21 @@
 }
 
 .search-icon{
-    display: inline;
+    display: inline-block;
+    margin-top:10px;
 }
 
 .search-button{
     display: inline;
 }
 
+.search-button button{
+    padding:6px 40px;
+    border:2px solid #1f1f1f;
+    border-radius: 15px;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+}
 
 .content{
     position: relative;
@@ -78,16 +101,13 @@
 .hero-heading{
     margin-top:20px;
     font-size: 48px;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .hero-para{
     margin-top:20px;
+    font-family: 'Poppins', sans-serif;
 }
-
-.hero-buttons{
-    margin-top:50px;
-}
-
 
 .contact{
     margin-top:50px;
@@ -95,6 +115,7 @@
 
 .contact-heading{
     padding:10px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .contact > img {
@@ -114,4 +135,26 @@
     position:absolute;
     right:0px;
     top:30px;
+}
+
+.hero-buttons{
+    margin-top:50px;
+}
+
+
+.email{
+    padding: 6px 15px;
+    border: 2px solid #1f1f1f;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.join{
+    padding: 6px 15px;
+    border: 2px solid #1f1f1f;
+    border-radius: 8px;
+    background-color: #1f1f1f;
+    color:#ffffff;
+    font-family: 'Orbitron', sans-serif;
 }
