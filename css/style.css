@@ -4,6 +4,7 @@
 * {
     padding:0px;
     margin: 0px;
+    outline: 0px;
 }
 
 .main{
@@ -60,14 +61,17 @@
     top:0px;
     bottom:0px;
     right: 0px;
-    margin: auto;
+    margin: auto 0px;
     width: fit-content;
     height: fit-content;
 }
 
 .search-icon{
-    display: inline-block;
-    margin-top:10px;
+    display: inline;
+}
+
+.search-icon img{
+    width: 25px;
 }
 
 .search-button{
@@ -106,7 +110,7 @@
 
 .hero-heading{
     margin-top:20px;
-    font-size: 48px;
+    font-size: 42px;
     font-family: 'Orbitron', sans-serif;
 }
 
