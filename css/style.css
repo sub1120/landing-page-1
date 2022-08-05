@@ -42,10 +42,14 @@
     display: inline;
     margin:0px 10px;
     font-weight: 600;
-    color:#6D6D6D;
 }
 
-.nav-item.active{
+.nav-link{
+    color:#6D6D6D;
+    text-decoration: none;
+}
+
+.nav-link.active{
     color:#000000;
     border-bottom: 2px solid black;
     font-weight: 800;
