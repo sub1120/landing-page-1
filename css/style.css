@@ -42,9 +42,11 @@
     display: inline;
     margin:0px 10px;
     font-weight: 600;
+    color:#6D6D6D;
 }
 
 .nav-item.active{
+    color:#000000;
     border-bottom: 2px solid black;
     font-weight: 800;
 }
@@ -107,6 +109,7 @@
 .hero-para{
     margin-top:20px;
     font-family: 'Poppins', sans-serif;
+    color:#6D6D6D;
 }
 
 .contact{
@@ -116,6 +119,7 @@
 .contact-heading{
     padding:10px;
     font-family: 'Poppins', sans-serif;
+    color:#6D6D6D;
 }
 
 .contact > img {
@@ -148,6 +152,7 @@
     border-radius: 8px;
     background-color: #ffffff;
     font-family: 'Orbitron', sans-serif;
+    color:#6D6D6D;
 }
 
 .join{
