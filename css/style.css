@@ -68,10 +68,12 @@
 
 .search-icon{
     display: inline;
+    
 }
 
 .search-icon img{
     width: 25px;
+    vertical-align: middle;
 }
 
 .search-button{
